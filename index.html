@@ -14,10 +14,9 @@
 
 img { 
 display: block;
-max-width: 150%;
+max-width: 100%;
 height: auto;
-margin-left: 14%;
-margin-right: 2% 
+padding: 5%;
 }
 
 h2 { 
@@ -55,9 +54,18 @@ p {
 font-family: variable;
 font-weight: variable;
 color: #ffffff;
-text-align: center;
+text-align: auto;
 margin-left: 15%;
-margin-right: 3%
+margin-right: 3%;
+}
+
+.p-intro {
+font-family: variable;
+font-weight: variable;
+color: #ffffff;
+text-align: auto;
+margin-left: 15%;
+margin-right: 3%;
 }
 
 h2, a {
@@ -71,7 +79,7 @@ h2, a {
 
 .sidenav {
   height: 100%;
-  width: 12%;
+  width: 12vw;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -81,23 +89,11 @@ h2, a {
   padding-top: 0px;
 } 
 
-.Title-bar { 
-  width: 90%; /* Set the width of the box */
-  height: 50px; /* Set the height of the box */
-  background-color: #161717; /* Add a background color */
-  padding: 30px; /* Add space between content and border */
-  margin-left: 10%; /* Add space outside the border and center the box */
-  margin-right: 0%;
-  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);  Add a subtle shadow */
-  border-radius: 0px; /* Round the corners */
-  overflow-x: hidden;
-}
-
 </style>
 
   </head>
   <body>
-    <div class="Title-bar"> 
+    <div class="title-bar"> 
       <h2><b>A Dice-Section: </b></h2><a href src="link"><b>Table-Top Role-Playing Games</b></a>
     </div>
 
@@ -108,19 +104,22 @@ h2, a {
   <a href="#contact">Contact</a>-->
 </div>
 
-
+<div>
     <h1>Home</h1>
-    <p>Originating with Dungeons and Dragons, but quickly growing to fit a variety of loved genres,
+    <p class="p-intro">Originating with Dungeons and Dragons, but quickly growing to fit a variety of loved genres,
         tabletop role-playing games, or TTRPGs are well known for their associations with dice, but
         many of the systems I've played still work to approach or encourage a wide variety of different
-        gameplay patterns. Through this site we'll be inspecting some of the decisions that divide
+        gameplay patterns. </p>
+        
+    <p class="p-intro">Through this site we'll be inspecting some of the decisions that divide
         these systems, specifically prioritizing the ones I've played and feel I understand. I hope
         that in 10 years, looking back on this site, I'll have an entire list of new systems I'm not
         as familiar with.</p>
     <!--Note to self: Figure out how to make the text break similarly on the page-->
     <img src="images/IMG_0010.jpg">
     <!--<a href="assignment1.html"><img src="images/assignment-hero.png"> </img>Assignment 1</a>-->
- </body>
+ </div>
+  </body>
 
  
 </html>
