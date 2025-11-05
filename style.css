@@ -1,6 +1,6 @@
 .Title-bar { 
     width: 90%; /* Set the width of the box */
-    height: 50px; /* Set the height of the box */
+    height: 150; /* Set the height of the box */
     background-color: #161717; /* Add a background color */
     padding: 30px; /* Add space between content and border */
     margin-left: 10% ; /* Add space outside the border and center the box */
