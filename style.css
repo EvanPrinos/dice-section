@@ -1,4 +1,4 @@
-.Title-Bar {
+.title {
     width: 90%; /* Set the width of the box */
     height: 150; /* Set the height of the box */
     background-color: #161717; /* Add a background color */
@@ -8,6 +8,14 @@
     border-radius: 0px; /* Round the corners */
 }
 
-.mTitle {
-    color: #161717;
+.sidenav {
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #161717;
+  overflow-x: hidden;
+  padding-top: 0px;
 }
