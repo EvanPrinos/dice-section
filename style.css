@@ -2,8 +2,8 @@
     width: 90%; /* Set the width of the box */
     height: 150; /* Set the height of the box */
     background-color: #161717; /* Add a background color */
-    padding: 20px; /* Add space between content and border */
-    margin: 0px; /* Add space outside the border and center the box */
+    padding: 30px; /* Add space between content and border */
+    margin-left: 10% ; /* Add space outside the border and center the box */
     /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);  Add a subtle shadow */
     border-radius: 0px; /* Round the corners */
 }
