@@ -1,14 +1,14 @@
 .title-bar { 
-  width: 90vw; /* Set the width of the box */
-  height: 50px; /* Set the height of the box */
+  width: 89vw; /* Set the width of the box */
+  height: 12vh;
   background-color: #161717; /* Add a background color */
-  padding: 30px; /* Add space between content and border */
-  margin-left: 10%; /* Add space outside the border and center the box */
-  margin-right: 0%;
+  margin-left: 10vw; /*Add space outside the border and center the box */
   /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);  Add a subtle shadow */
   border-radius: 0px; /* Round the corners */
-  overflow-x: hidden;
 }
+*{
+    margin: 0;
+  }
 
 body {
     background-color: #343638;
