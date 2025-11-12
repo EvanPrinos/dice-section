@@ -22,7 +22,7 @@
 
 
 button {
-  width: 12vw;
+  width: 150px;
   height: 5vw;
   background-color: #161717;
   outline: 1px solid #22B5F6;
@@ -82,9 +82,7 @@ font-family: variable;
 font-weight: variable;
 color: #22B5F6;
 text-align: center;
-display: inline;
 font-size: 20px;
-margin: 10%;
 text-decoration: none;
 /*transition: color 0.5s;*/
 }
@@ -94,9 +92,7 @@ font-family: variable;
 font-weight: variable;
 color: #D0BD45;
 text-align: center;
-display: inline;
 font-size: 20px;
-margin: 10%;
 }
 
 h1 { 
