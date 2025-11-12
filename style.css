@@ -2,6 +2,16 @@
     margin: 0;
   }
 
+  /*@media only screen and (max-width: 600px) {
+    h1 {color: #D0BD45;}
+
+  }
+
+  @media only screen and (min-width: 600px) {
+        h1 {color: #22B5F6;}
+  }*/
+
+
 .title-bar { 
   width: 89vw; /* Set the width of the box */
   height: 12vh;
@@ -11,32 +21,20 @@
   border-radius: 0px; /* Round the corners */
 }
 
-.buttonbox-left {
+.buttonbox {
   width: 20vw;
   height: 9vw;
   background-color: #161717;
-  box-shadow: 0px 0px 10px #22B5F6;
   outline: #22B5F6;
-  margin-left: 20vw;
 }
 
-.buttonbox-right {
+.buttonbox:hover {
   width: 20vw;
   height: 9vw;
   background-color: #161717;
-  box-shadow: 0px 0px 10px #22B5F6;
-  outline: #22B5F6;
-  margin-right: 20vw;
-}
-
-.buttonbox-mid {
-  width: 20vw;
-  height: 9vw;
-  background-color: #161717;
-  box-shadow: 0px 0px 10px #22B5F6;
+  box-shadow: 0px 0px 15px #22B5F6;
   outline: #22B5F6;
 }
-
 
 body {
     background-color: #343638;
@@ -64,6 +62,16 @@ color: #D0BD45;
 text-align: center;
 display: inline;
 font-size: 20px;
+transition: color 0.5s;
+}
+
+a:hover { 
+font-family: variable;
+font-weight: variable;
+color: #e4d469;
+text-align: center;
+display: inline;
+font-size: 20px;
 }
 
 .buttontext {
@@ -74,6 +82,8 @@ text-align: center;
 display: inline;
 font-size: 20px;
 margin: 10%;
+text-decoration: none;
+/*transition: color 0.5s;*/
 }
 
 .buttontext:hover {
