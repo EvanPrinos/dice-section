@@ -2,16 +2,6 @@
     margin: 0;
   }
 
-  /*@media only screen and (max-width: 600px) {
-    h1 {color: #D0BD45;}
-
-  }
-
-  @media only screen and (min-width: 600px) {
-        h1 {color: #22B5F6;}
-  }*/
-
-
 .title-bar { 
   width: 89vw; /* Set the width of the box */
   height: 12vh;
@@ -21,19 +11,33 @@
   border-radius: 0px; /* Round the corners */
 }
 
-.buttonbox {
-  width: 20vw;
-  height: 9vw;
+@media only screen and (max-width: 600px) {
+    h2 {margin-top: 1.1vh;}
+
+  }
+
+  @media only screen and (min-width: 600px) {
+        h2 {margin-top: 3.8vh;}
+  }
+
+
+button {
+  width: 12vw;
+  height: 5vw;
   background-color: #161717;
-  outline: #22B5F6;
+  outline: 1px solid #22B5F6;
+  padding: 15px;
+  margin: 1vw
 }
 
-.buttonbox:hover {
-  width: 20vw;
-  height: 9vw;
+button:hover {
+  /*width: 20vw;
+  height: 9vw;*/
   background-color: #161717;
   box-shadow: 0px 0px 15px #22B5F6;
-  outline: #22B5F6;
+  outline: 1px solid #22B5F6;
+  padding: 15px;
+  margin: 1vw
 }
 
 body {
@@ -45,7 +49,6 @@ font-family: variable;
 font-weight: variable;
 color: #22B5F6;
 text-align: center;
-padding-top: 1vh;
 }
 
 h3 {
@@ -143,3 +146,7 @@ margin-right: 3%;
   overflow-x: hidden;
   padding-top: 0px;
 } 
+
+nav {
+  margin-left: 22vw;
+}
