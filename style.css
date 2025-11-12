@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+  }
+
 .title-bar { 
   width: 89vw; /* Set the width of the box */
   height: 12vh;
@@ -6,10 +10,116 @@
   /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);  Add a subtle shadow */
   border-radius: 0px; /* Round the corners */
 }
-*{
-    margin: 0;
-  }
+
+.buttonbox-left {
+  width: 20vw;
+  height: 9vw;
+  background-color: #161717;
+  box-shadow: 0px 0px 10px #22B5F6;
+  outline: #22B5F6;
+  margin-left: 20vw;
+}
+
+.buttonbox-right {
+  width: 20vw;
+  height: 9vw;
+  background-color: #161717;
+  box-shadow: 0px 0px 10px #22B5F6;
+  outline: #22B5F6;
+  margin-right: 20vw;
+}
+
+.buttonbox-mid {
+  width: 20vw;
+  height: 9vw;
+  background-color: #161717;
+  box-shadow: 0px 0px 10px #22B5F6;
+  outline: #22B5F6;
+}
+
 
 body {
     background-color: #343638;
 }
+
+h2 { 
+font-family: variable;
+font-weight: variable;
+color: #22B5F6;
+text-align: center;
+padding-top: 3.8vh;
+}
+
+h3 {
+font-family: variable;
+font-weight: variable;
+color: #D0BD45;
+text-align: center;
+}
+
+a {
+font-family: variable;
+font-weight: variable;
+color: #D0BD45;
+text-align: center;
+display: inline;
+font-size: 20px;
+}
+
+.buttontext {
+font-family: variable;
+font-weight: variable;
+color: #22B5F6;
+text-align: center;
+display: inline;
+font-size: 20px;
+margin: 10%;
+}
+
+h1 { 
+font-family: variable;
+font-weight: variable;
+color: #FFFFFF;
+text-align: center;
+margin: 3vh;
+}
+
+p {
+font-family: variable;
+font-weight: variable;
+color: #ffffff;
+text-align: auto;
+margin-left: 15%;
+margin-right: 3%;
+margin-bottom: 15px;
+}
+
+.p-intro {
+font-family: variable;
+font-weight: variable;
+color: #ffffff;
+text-align: auto;
+margin-left: 15%;
+margin-right: 3%;
+}
+
+/*h2, a {
+  width: 50%;
+  height: 60px;
+  margin: 30%;
+  padding: 0;
+  display: inline;
+  text-align: center;
+}*/
+
+.sidenav {
+  height: 100%;
+  width: 12vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #161717;
+  overflow-x: hidden;
+  padding-top: 0px;
+} 
