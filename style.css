@@ -76,6 +76,16 @@ font-size: 20px;
 margin: 10%;
 }
 
+.buttontext:hover {
+font-family: variable;
+font-weight: variable;
+color: #D0BD45;
+text-align: center;
+display: inline;
+font-size: 20px;
+margin: 10%;
+}
+
 h1 { 
 font-family: variable;
 font-weight: variable;
