@@ -1,7 +1,6 @@
 *{
-    margin: 0;
+    margin-top: 0;
   }
-
 .title-bar { 
   width: 89vw; /* Set the width of the box */
   height: 12vh;
@@ -11,19 +10,9 @@
   border-radius: 0px; /* Round the corners */
 }
 
-@media only screen and (max-width: 600px) {
-    h2 {margin-top: 1.1vh;}
-
-  }
-
-  @media only screen and (min-width: 600px) {
-        h2 {margin-top: 3.8vh;}
-  }
-
-
 button {
   width: 150px;
-  height: 5vh;
+  height: 30px;
   background-color: #161717;
   outline: 1px solid #22B5F6;
   margin: 1vw
@@ -86,7 +75,7 @@ align-items: center;
 /*transition: color 0.5s;*/
 }
 
-.buttontext:hover {
+.buttontext a:hover {
 font-family: variable;
 font-weight: variable;
 color: #D0BD45;
@@ -146,3 +135,16 @@ margin-right: 3%;
 nav {
   margin-left: 22vw;
 }
+
+@media only screen and (max-width: 600px) {
+    h2 {margin-top: 1.1vh;}
+
+}
+
+@media only screen and (min-width: 600px) {
+        h2 {margin-top: 3.8vh;}
+}
+
+button, .buttontext {color: #22B5F6;}
+
+button:hover ~ .buttontext { color: #D0BD45; }
