@@ -52,7 +52,7 @@ color: #D0BD45;
 text-align: center;
 display: inline;
 font-size: 20px;
-transition: color 0.5s;
+/*transition: color 0.5s;*/
 }
 
 a:hover { 
