@@ -52,7 +52,6 @@ font-weight: variable;
 color: #D0BD45;
 text-align: center;
 display: inline;
-font-size: 20px;
 /*transition: color 0.5s;*/
 }
 
@@ -62,7 +61,6 @@ font-weight: variable;
 color: #e4d469;
 text-align: center;
 display: inline;
-font-size: 20px;
 }
 
 .buttontext {
@@ -134,6 +132,19 @@ margin-right: 3%;
   padding-top: 0px;
 } 
 
+.sidebar {
+  height: 100%;
+  width: 0vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #161717;
+  overflow-x: hidden;
+  padding-top: 0px;
+  transition: 0.5s;
+}
+
 nav {
   margin-left: 22vw;
 }
@@ -149,11 +160,13 @@ footer {
 @media only screen and (max-width: 600px) {
     h2 {margin-top: 1.1vh; font-size: 22px;}
     a {font-size: 20px;}
-}
+    p {font-size: 16px;}
+  }
 
 @media only screen and (min-width: 600px) {
         h2 {margin-top: 3.8vh; font-size: 30px;}
         a {font-size: 25px;}
+        p {font-size: 20px;}
 }
 
 button, .buttontext {color: #22B5F6;}
