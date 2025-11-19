@@ -3,7 +3,7 @@
     margin-bottom: 0;
   }
 .title-bar { 
-  width: 100vw; /* Set the width of the box */
+  width: 88.5vw; /* Set the width of the box */
   height: 12vh;
   background-color: #161717; /* Add a background color */
   margin-left: 10vw; /*Add space outside the border and center the box */
@@ -11,12 +11,25 @@
   border-radius: 0px; /* Round the corners */
 }
 
+.textcontainer {
+  width: auto;
+  max-width: 875px;
+  margin: auto;
+  /*border: 2px solid #22B5F6;*/
+}
+
+
+
+
+
 button {
   width: 150px;
   height: 30px;
   background-color: #161717;
   outline: 1px solid #22B5F6;
-  margin: 1vw
+  margin: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 button:hover {
@@ -25,7 +38,6 @@ button:hover {
   background-color: #161717;
   box-shadow: 0px 0px 15px #22B5F6;
   outline: 1px solid #22B5F6;
-  margin: 1vw
 }
 
 body {
@@ -50,9 +62,9 @@ a {
 font-family: variable;
 font-weight: variable;
 color: #D0BD45;
-text-align: center;
+/*text-align: center;
 display: inline;
-/*transition: color 0.5s;*/
+transition: color 0.5s;*/
 }
 
 a:hover { 
@@ -97,8 +109,8 @@ font-family: variable;
 font-weight: variable;
 color: #ffffff;
 text-align: auto;
-margin-left: 15%;
-margin-right: 3%;
+/*margin-left: 15%;
+margin-right: 3%;*/
 margin-bottom: 15px;
 }
 
@@ -146,13 +158,14 @@ margin-right: 3%;
 }
 
 nav {
-  margin-left: 22vw;
+position: relative;
+margin: auto;
 }
 
 footer {
   background-color: #161717;
   height: 8vh;
-  width: 100vw;
+  width: 88.5vw;
   margin-left: 10vw;
 }
 
