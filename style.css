@@ -2,6 +2,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
 .title-bar { 
   width: 88.5vw; /* Set the width of the box */
   height: 12vh;
@@ -144,7 +145,19 @@ margin-right: 3%;
   padding-top: 0px;
 } 
 
-.sidebar {
+#popoutsidenav {
+  height: 100%;
+  width: 0vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #161717;
+  overflow-x: hidden;
+  padding-top: 0px;
+} 
+
+/*.sidebar {
   height: 100%;
   width: 0vw;
   position: fixed;
@@ -155,7 +168,7 @@ margin-right: 3%;
   overflow-x: hidden;
   padding-top: 0px;
   transition: 0.5s;
-}
+}*/
 
 nav {
 position: relative;
@@ -188,6 +201,52 @@ footer {
 
 }
 
+.topleftbutton {
+  height: 12vh;
+  width: 12.5vw;
+  position:fixed;
+  margin: 0vw;
+  margin-top: 3.9vh;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: #343638;
+  outline: none;
+}
+
+.topleftbutton:hover {
+  height: 12vh;
+  width: 12.5vw;
+  position:fixed;
+  margin: 0vw;
+  margin-top: 3.9vh;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: #343638;
+  outline: none;
+  box-shadow: 0px 0px 0px;
+}
+
 button, .buttontext {color: #22B5F6;}
 
 button:hover > .buttontext { color: #D0BD45; }
+
+.navigation {
+  
+  /* Collapsed */
+  width: 0; 
+
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #161717;
+}
+
+.page-wrap {
+  width: 100%;
+  float: right;
+}
+
