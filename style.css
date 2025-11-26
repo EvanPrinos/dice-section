@@ -87,11 +87,6 @@ footer, h2 {
 color: #FFFFFF;
 }*/
 
-footer {
-  text-decoration: none;
-  color: #ffffff
-}
-
 h3 {
 font-family: variable;
 font-weight: variable;
@@ -103,9 +98,8 @@ a {
 font-family: 'vega';
 font-weight: variable;
 color: #D0BD45;
-/*text-align: center;
+text-align: center;
 display: inline;
-transition: color 0.5s;*/
 }
 
 a:hover { 
@@ -222,6 +216,7 @@ footer {
   width: 88.5vw;
   margin-left: 10vw;
   padding-top: 3%;
+  text-align: center;
 }
 
 /*@media screen and (max-width: 768px) {
@@ -269,8 +264,7 @@ footer {
 }
 
 .topleftbutton.active {
-  background-color: #29f622;
-  color: #d02626;
+  color: #D0BD45;
 }
 
 .topleftbutton + label:before{
