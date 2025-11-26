@@ -41,6 +41,11 @@
   src: url(fonts/Vega-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'typewriter';
+  src: url(fonts/typewriter-text-light.ttf) format('truetype');
+}
+
 
 
 button {
@@ -70,6 +75,7 @@ font-family: 'vega';
 font-weight: variable;
 color: #22B5F6;
 text-align: center;
+margin: 5px;
 }
 
 a > footer {
@@ -133,7 +139,7 @@ text-decoration: none;
 }
 
 p {
-font-family: 'ocr-a';
+font-family: 'typewriter';
 font-weight: variable;
 color: #ffffff;
 text-align: auto;
