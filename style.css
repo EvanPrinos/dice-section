@@ -4,7 +4,7 @@
   }
 
 .title-bar { 
-  width: 88.5vw; /* Set the width of the box */
+  width: 91%; /* Set the width of the box */
   height: 12vh;
   background-color: #161717; /* Add a background color */
   margin-left: 10vw; /*Add space outside the border and center the box */
@@ -20,6 +20,13 @@
   /*border: 2px solid #22B5F6;*/
 }
 
+.belowthebutton {
+  width: 100%;
+  margin: auto;
+  margin-top: 15vh;
+  padding-top: 10px;
+  /*border: 2px solid #22B5F6;*/
+}
 
 
 
@@ -186,7 +193,7 @@ footer {
     button {margin-left: 4vw; margin-right: 4vw;}
 }*/
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
     h2 {margin-top: 1.1vh; font-size: 22px;}
     a {font-size: 20px;}
     p {font-size: 16px;}
@@ -199,7 +206,7 @@ footer {
         p {font-size: 20px;}
         button {margin-left: 4vw; margin-right: 4vw;}
 
-}
+}*/
 
 .topleftbutton {
   height: 12vh;
