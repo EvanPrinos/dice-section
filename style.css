@@ -25,6 +25,7 @@
   margin: auto;
   margin-top: 15vh;
   padding-top: 10px;
+  padding-left: 10px;
   /*border: 2px solid #22B5F6;*/
 }
 
@@ -162,6 +163,7 @@ margin-right: 3%;
   background-color: #161717;
   overflow-x: hidden;
   padding-top: 0px;
+  border: 0px, solid, #22B5F6;
 } 
 
 /*.sidebar {
