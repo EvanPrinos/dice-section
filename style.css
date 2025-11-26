@@ -60,6 +60,14 @@ color: #22B5F6;
 text-align: center;
 }
 
+a, footer {
+text-decoration: none;
+}
+
+h2, footer {
+color: #FFFFFF;
+}
+
 h3 {
 font-family: variable;
 font-weight: variable;
