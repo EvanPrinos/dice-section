@@ -1,20 +1,18 @@
 function toggleNav() {
   const popoutsidenav = document.getElementById("popoutsidenav");
-  const topleftbutton = document.getElementsByClassName("topleftbutton")[0];
+  const topleftbutton = document.querySelector(".topleftbutton");
 
   if (popoutsidenav.style.width === "35vw") {
     // Close the sidenav
     popoutsidenav.style.width = "0vw";
-    popoutsidenav.style.border = "0px, solid, #22B5F6";
-    //topleftbutton.style.color = "#22B5F6";
+    popoutsidenav.style.border = "0px, solid, #22B5F6"
     topleftbutton.classList.remove("active");
-
-  } else {
+  } 
+  
+  else {
     // Open the sidenav
     popoutsidenav.style.width = "35vw";
-    popoutsidenav.style.border = "1px, solid, #22B5F6";
-    //topleftbutton.style.color = "#D0BD45";
+    popoutsidenav.style.border = "1px, solid, #22B5F6"
     topleftbutton.classList.add("active");
-
   }
 }
