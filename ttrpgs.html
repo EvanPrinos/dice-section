@@ -14,11 +14,11 @@
 
 img { 
 display: block;
-max-width: 100%;
-min-width: none;
 height: auto;
 width: auto/9;
-margin-left: 13vw;
+max-width: 100%;
+min-width: none;
+margin-bottom: 1.3vw;
 }
 
 
@@ -27,64 +27,128 @@ margin-left: 13vw;
 </head>
 <body>
   <div class="title-bar"> 
-    <h2>A Dice-Section: <a href src="ttrpgs.html">Table-Top Role-Playing Games</a></h2>
+    <h2>A Dice-Section: <a href="ttrpgs.html">Table-Top Role-Playing Games</a></h2>
   </div>
 
+  <!--Nav Bar Beginning-->  
+  
   <div class="sidenav"> <!--https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp was the source for all sidebar-related matters-->
-  <!--<a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>-->
+  </div>
+  
+  <div id="popoutsidenav">
+    <div class="belowthebutton">
+    <a href="about.html">About</a><br>
+    <a href="index.html">Home</a><br>
+    <a href="ttrpgs.html">TTRPGs</a><br>
+    <a href="dnd5e.html">D&D 5e</a><br>
+    <a href="lancer.html">Lancer</a><br>
+    <a href="pathfinder.html">Pathfinder</a><br>
+    <a href="dnd4e.html">D&D 4e</a><br>
+    </div>
   </div>
 
-  <div>
-    <h1>Table-Top Role-Playing Games</h1>
-    <p>Originating with Dungeons and Dragons, but quickly growing to fit a variety of loved genres,
-        tabletop role-playing games, or TTRPGs are well known for their associations with dice, but
-        many of the systems I've played still work to approach or encourage a wide variety of different
-        gameplay patterns. 
+  <button type="checkbox" class="topleftbutton" onclick="toggleNav()"><!--&#9776;--></button>
+
+  
+  <div class="textcontainer">
+    <h1>TTRPGs</h1>
+
+    <p>A TTRPG, or a Table-Top Role-Playing Game, is by definition a 
+      game where players play as characters using a physical medium,
+      traditionally pencils, paper, dice, and possibly figures on a
+      board. By default, most TTRPGs are also characterized by a 
+      focus on combat and exploration, as well as teamwork, however
+      theoretically these are not mandatory to the definition.
     </p>
         
-    <p><!--class="p-intro"-->Through this site we'll be inspecting some of the decisions that divide
-        these systems, specifically prioritizing the ones I've played and feel I understand. I hope
-        that in 10 years, looking back on this site, I'll have an entire list of new systems I'm not
-        as familiar with.
+    <p>
+      Additionally, most TTRPGs include a Game Master, or GM, a
+      player whose role is to control the environment and all other
+      characters. This role is traditionally best compared to a game
+      engine, rather than an adversary to the players, as TTRPGs are
+      'won' by having all players enjoy the session and look forward
+      to playing again and continuing the story or a new one together
+      in the future. Some systems exist that are GM-less, such 
+      as using dice rolls and tables to determine how a world would
+      react to the activities of the players' characters, but I have
+      not played such systems yet, so this difference in game design
+      ideology will not be addressed in my current iteration of a 
+      Dice-Section.
     </p>
+
+    <h1>Characters</h1>
+
+    <p>Most modern TTRPGs have a focus on allowing players to make
+      characters that are personalized to a fantasy or archetype that
+      the player may want to embody within the world of the game. 
+      This often includes stats and abilities, although many systems
+      facilitate this in different ways. A common way in fantasy 
+      TTRPGs is classes, which draw from popular fantasy archetypes
+      set out by series such as Lord of the Rings, however classes
+      are not the only axis of character customization, and sometimes
+      aren't one of the axes available at all. 
+    </p>
+    <p>
+      As an enjoyer of High-Fantasy worlds, many of the systems I've 
+      played are Fantasy-inspired, however, there will be discussion
+      of games designed to be set in other settings as well, and will
+      highlight some other ways that characters can be customized in
+      further detail in general.
+    </p>
+
+    <h1>Dice</h1>
+
+    <p>
+      As mentioned, dice became a traditional staple of TTRPGs early 
+      on with the earliest examples, and are broadly used to roll and
+      determine the efficacy of an action taken by one's character.
+      While I lack the omniscience to determine how this decision was
+      made at the time, the core benefit of dice in TTRPGs is to help 
+      distinguish between a player and a character. An anecdotal 
+      example of this was when my brother was still new to TTRPGs, he
+      would describe his Dungeons and Dragons character delivering 
+      fatal blows, and would be upset that the damage dealt didn't
+      reflect the lethality of the attack. The explanation I gave for
+      this disconnect was that the character might not immediately be
+      in an advantageous position to slit an enemy's throat, and the
+      dice help reflect the circumstances surrounding the characters
+      in the game.
+    </p>
+
+    <p>
+      Similarly, the dice encourage a level of improvisation to the
+      game which can enliven it. The surface-level example of this is
+      that plans can fail unexpectedly, but more specifically, a 
+      failed roll pushes the players to decide why in the story that
+      action failed, such as a moment of distraction, an unfortunate
+      slapstick routine, or whichever other reason pops into the 
+      players' heads in the moment. In general, the dice's influence
+      on the game acts as an additional player ensuring that the
+      resulting story is personalized, too, even if the same players
+      play together again.
+    </p>
+
     <!--Note to self: Figure out how to make the text break similarly on the page-->
     <img src="images/IMG_0010.jpg">
     <!--<a href="assignment1.html"><img src="images/assignment-hero.png"> </img>Assignment 1</a>-->
-  </div>
-
-
-<p></p>
 
   <section>
     <nav>
       <!--<div class="buttonbox">-->
-      <a>
-        <button type="submit" formaction="dnd.html">
-          <a class="buttontext">D&D</a>
+        <button onclick="location.href='index.html'">
+          <a class="buttontext">Back to Home</a>
         </button>
-      </a>
-      <a href src="link">
-        <button>
-          <a class="buttontext">Lancer</a>
-        </button>
-      </a>  
-      <a href src="link">
-        <button>
-          <a class="buttontext">Pathfinder</a>
-        </button>
-      </a>
     </nav>
   </section>
+        </div>
 
-<p></p>
 
-
-<footer><a href src="link"><h1>About</h1></a></footer>
+<br>
+<footer>
+  <a href="about.html">About</a>
+</footer>
+<script src="script.js"></script>
 </body>
 
- 
 </html>
  

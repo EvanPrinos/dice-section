@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dice-Section</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+::-ms-backdrop {
+    color: #343638;
+}
+
+img { 
+display: block;
+height: auto;
+width: auto/9;
+max-width: 100%;
+min-width: none;
+margin-bottom: 1.3vw;
+}
+
+
+</style>
+
+</head>
+<body>
+  <div class="title-bar"> 
+    <h2>A Dice-Section: <a href="ttrpgs.html">Table-Top Role-Playing Games</a></h2>
+  </div>
+
+  <!--Nav Bar Beginning-->  
+  
+  <div class="sidenav"> <!--https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp was the source for all sidebar-related matters-->
+  </div>
+  
+  <div id="popoutsidenav">
+    <div class="belowthebutton">
+    <a href="about.html">About</a><br>
+    <a href="index.html">Home</a><br>
+    <a href="ttrpgs.html">TTRPGs</a><br>
+    <a href="dnd5e.html">D&D 5e</a><br>
+    <a href="lancer.html">Lancer</a><br>
+    <a href="pathfinder.html">Pathfinder</a><br>
+    <a href="dnd4e.html">D&D 4e</a><br>
+    </div>
+  </div>
+
+  <button type="checkbox" class="topleftbutton" onclick="toggleNav()"><!--&#9776;--></button>
+
+  
+  <div class="textcontainer">
+    <h1>Lancer</h1>
+
+    <p>Originating with Dungeons and Dragons, but quickly growing to fit a variety of loved genres,
+        tabletop role-playing games, or TTRPGs are well known for their associations with dice, but
+        many of the systems I've played still work to approach or encourage a wide variety of different
+        gameplay patterns. 
+    </p>
+        
+    <p><!--class="p-intro"-->Through this site we'll be inspecting some of the decisions that divide
+        these systems, specifically prioritizing the ones I've played and feel I understand. I hope
+        that in 10 years, looking back on this site, I'll have an entire list of new systems I'm not
+        as familiar with.
+    </p>
+
+    <!--Note to self: Figure out how to make the text break similarly on the page-->
+    <img src="images/IMG_0010.jpg">
+    <!--<a href="assignment1.html"><img src="images/assignment-hero.png"> </img>Assignment 1</a>-->
+
+  <section>
+    <nav>
+      <!--<div class="buttonbox">-->
+        <button onclick="location.href='dnd5e.html'">
+          <a class="buttontext">D&D 5e</a>
+        </button>
+        <button onclick="location.href='lancer.html'">
+          <a class="buttontext">Lancer</a>
+        </button>
+        <button onclick="location.href='pathfinder.html'">
+          <a class="buttontext">Pathfinder</a>
+        </button>
+        <button onclick="location.href='dnd4e.html'">
+          <a class="buttontext">D&D 4e</a>
+        </button>
+    </nav>
+  </section>
+        </div>
+
+
+<br>
+<footer>
+  <a href="about.html">About</a>
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
+ 
